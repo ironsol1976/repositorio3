@@ -1,0 +1,500 @@
+   15  vi hola.sh
+   16  chmod 777 hola.sh
+   17  sh hola.sh
+   18  vi hola.sh
+   19  chmod 777 hola.sh
+   20  sh hola.sh
+   21  ipconfig
+   22  ifconfig
+   23  ls
+   24  mkdir cosas
+   25  mv prueva.bak ./cosas
+   26  ls
+   27  mv prueva.txt ./cosas
+   28  ls
+   29  mv prueba.txt ./cosas
+   30  cat task.sh
+   31  cat txtprueba.txt
+   32  mv txtprueba.txt ./cosas
+   33  ls
+   34  cat ntuser.ini
+   35  cat ntuser.pol
+   36  sh task.sh
+   37  ls
+   38  nno hora
+   39  nano hora
+   40  touch hola.txt hola2.txt hola3.txt
+   41  mkdir prueba
+   42  chmod 700 prueba
+   43  cd prueba
+   44  pwd
+   45  cd
+   46  pwd
+   47  ls -ld prueba
+   48  #!/bin/bash
+   49  # Este script recibe un argumento y determina si es archivo o directorio.
+   50  Error(){ echo "Error. Sintaxis de uso: $0/ archivo | directorio"; }
+   51  if test $# -lt 1 # Si el número de parámetros posicionales o argumentos que se le dan al script es menor que 1, donde "-lt" significa "lower than" y es equivalente a lo que en otros lenguajes se utiliza como "<".; then Error; elif test -d $1 # Si el parámetro posicional "$1" existe y es un directorio.; then echo "$1 es un directorio."; elif test -f $1 # Si el parámetro posicional "$1" existe y es un archivo regular.; then echo "$1 es un archivo."; else echo "$1 no existe."; fi
+   52  '/c/Users/willi/Desktop/3ERO IG/SO 3/trabajo/script 1.sh'
+   53  sh /c/Users/willi/Desktop/3ERO IG/SO 3/trabajo/script 1.sh
+   54  sh c:/Users/willi/Desktop/3ERO IG/SO 3/trabajo/script 1.sh
+   55  #!/bin/bash
+   56  Error(){ echo "Error. Sintaxis de uso: $0/ archivo | directorio"; }
+   57  if test $# -lt 1 ; then Error elif test -d $1 ; then echo "$1 es un directorio y su tamaño es el siguiente:"
+   58  #!/bin/bash
+   59  Error(){ echo "Error. No se proporcionaron argumentos. Las posibles opciones para la ejecución de este script son:"; echo "$0 nombre_archivo"; echo "$0 nombre_directorio"; }
+   60  if test $# -lt 1 # Si el número de parámetros posicionales o argumentos que se le dan al script es menor que 1, donde "-lt" significa "lower than" y es equivalente a lo que en otros lenguajes se utiliza como "<".; then Error; elif test -d $1 # Si el parámetro posicional "$1" existe y es un directorio.; then echo "$1 es un directorio."; elif test -f $1 # Si el parámetro posicional "$1" existe y es un archivo regular.; then echo "$1 es un archivo."; else echo "$1 no existe."; fi
+   61  date
+   62  call
+   63  cal
+   64  pwd
+   65  vi task.sh
+   66  echo $shell
+   67  $shell
+   68  echo $shell :
+   69  $bash date.sh
+   70  VI QUIEN.SH
+   71  chmod 777 quien.sh
+   72  sh quien.sh
+   73  whoami
+   74  sh quien.sh
+   75   getconf ARG_MAX
+   76  chmod +x ./myscript
+   77  vi directorio.sh
+   78  chmod 777 directorio.sh
+   79  sh directorio.sh
+   80  vi home.sh
+   81  chmod 777 home.sh
+   82  sh home.sh
+   83  #!/bin/bash
+   84  clear
+   85  while :; do echo " Escoja una opcion "; echo "1. Registrarse"; echo "2. loguearse"; echo "3. Salir"; echo -n "Seleccione una opcion [1 al 3 Solamente]"; read opcion; case $opcion in 1)echo "Ponga nombre"; read var1; echo; echo $var1 >> tengo.txt; echo; echo "Ponga pass"; read var2; echo; echo $var2 >> tengo.txt; read -p "Press enter to continue";; 2)echo -n "Cual es tu Usuario: "; read nom; echo -n "Escribe Pass: "; read cod;  if [ "$nom" = $(grep "$nom" tengo.txt | cut -d: -f1) ]; then echo "Estas Registrado"; else echo "No esta registrado"; fi; read -p "Press enter to continue";; 3) echo "Chau"; exit 1;; *) echo "$opc es una opcion incorrecta"; echo "Presiona una tecla para continuar..."; read foo;; esac; done
+   86  $USER!
+   87  ECHO "JI, $user!"
+   88  COLOUR="BLACK"
+   89  VI VALOR.SH
+   90  chmod 777 valor.sh
+   91  sh valor.sh
+   92  vi valor.sh
+   93  chmod 777 valor.sh
+   94  sh valor.sh
+   95  ca history
+   96  cat history
+   97  cat bash_history
+   98  vi edad.sh
+   99  chmod 777 edad.sh
+  100  sh edad
+  101  sh edad.sh
+  102  vi edad.sh
+  103  sh edad.sh
+  104  vi edad.sh
+  105  sh edad.sh
+  106  vi edad.sh
+  107  exit
+  108  PWD
+  109  mkdir prueba
+  110  touch prueba.docx
+  111  ls
+  112  push
+  113  Push
+  114  pull
+  115  $ git init
+  116  $gitinit
+  117  git add
+  118  git add trabajos
+  119  git add trabajos
+  120  git add trabajos
+  121  git commit -m "First commit"
+  122  github
+  123  pwd
+  124  ls
+  125  cd desktop
+  126  ls
+  127  cd 3ero ig
+  128  cd '3ero ig'
+  129  cd 'so'
+  130  ls
+  131  cd 'so 3'
+  132  ls
+  133  mkdir repositorio
+  134  cd repositorio
+  135  pwd
+  136  ls
+  137  git init
+  138  git add .
+  139  git status
+  140  git commit -m "Commit del proyecto bash sh"
+  141  git status
+  142  git remote add origin https://github.com/ironsol1976/respuesta-a-la-pregunta-3.git
+  143  git push origin master
+  144  clear
+  145  git remote add origin https://github.com/ironsol1976/respuesta-a-la-pregunta-3.git
+  146  git push origin master
+  147  git pull origin master
+  148  historial
+  149  ?
+  150  cat history >> historial.txt
+  151  cat history
+  152  bach_history
+  153  cat bach_history
+  154  clear
+  155  cat history historial.txt
+  156  cat history
+  157  cat history >historial.txt
+  158  history
+  159  cat history >> history.txt
+  160  cat history >historial.txt
+  161  history>historial.txt
+  162  cat historial.txt
+  163  git config --global user.name "William Lema"
+  164  git config --global user.email "williamlema1976@yahoo.com"
+  165  git config user.name
+  166  git user.email
+  167  git config user.email
+  168  git help config
+  169  git init
+  170  ls
+  171  ls -a
+  172  git status
+  173  git add readme.md
+  174  git status
+  175  git commit
+  176  quit status
+  177  qit status
+  178  qit status
+  179  git status
+  180  git diff
+  181  git add readme.md
+  182  git commit
+  183  git status
+  184  git status
+  185  git status
+  186  git add gitignore
+  187  git add .gitignore
+  188  git add .gitignore
+  189  git add .gitignore
+  190  git status
+  191  git commit
+  192  git status
+  193  git log
+  194  git log --oneline
+  195  git checkout 0af081e 
+  196  git log
+  197  git log --all
+  198  git log --all --oneline
+  199  git checkout master
+  200  git checkout master
+  201  git status
+  202  git status
+  203  git add indes.html
+  204  git add index.html
+  205  git status
+  206  git reset 
+  207  git reset HEAD index.html
+  208  git status
+  209  git add index.html
+  210  git status
+  211  git commit
+  212  git status
+  213  git --log --oneline
+  214  git log --all --oneline
+  215  git branch
+  216  git branch desarrollo
+  217  git branch
+  218  git checkout desarrollo
+  219  git branch
+  220  git status
+  221  git status
+  222  git add index.html
+  223  git commit
+  224  git log
+  225  git log --oneline --all --decorate
+  226  git log --oneline --all --decorate --graph
+  227  git checkout master
+  228  git checkout desarrollo
+  229  git status
+  230  git add index.html
+  231  git commit
+  232  git status
+  233  git log --oneline --all --decorate --graph
+  234  git checkout master
+  235  git status
+  236  git add index.html
+  237  git commit
+  238  git status
+  239  git log --oneline --all --decorate --graph
+  240  git merge desarrollo
+  241  git status
+  242  git add index.html
+  243  git status
+  244  git commit
+  245  git status
+  246  git log --oneline --all --decorate --graph
+  247  git branch -d desarrollo
+  248  git log --all --oneline --decorate --graph
+  249  git remote add origin https://github.com/ironsol1976/git-desde-cero.git
+  250   git push -u maestro de origen
+  251   git push -u maestro de origen
+  252  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git
+  253  $ git init
+  254  Initialized empty Git repository in C:/Users/willi/Desktop/pruebas git/.git/
+  255  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  256  $ ls
+  257  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  258  $ ls -a
+  259  ./  ../  .git/
+  260  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  261  $ git status
+  262  On branch master
+  263  No commits yet
+  264  Untracked files:
+  265    (use "git add <file>..." to include in what will be committed)
+  266          readme.md
+  267  nothing added to commit but untracked files present (use "git add" to track)
+  268  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  269  $ git add readme.md
+  270  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  271  $ git status
+  272  On branch master
+  273  No commits yet
+  274  Changes to be committed:
+  275    (use "git rm --cached <file>..." to unstage)
+  276          new file:   readme.md
+  277  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  278  $ git commit
+  279  [master (root-commit) 0af081e] mi primer commit
+  280   1 file changed, 1 insertion(+)
+  281   create mode 100644 readme.md
+  282  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  283  $ quit status
+  284  bash: quit: command not found
+  285  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  286  $ qit status
+  287  bash: qit: command not found
+  288  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  289  $ qit status
+  290  bash: qit: command not found
+  291  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  292  $ git status
+  293  On branch master
+  294  Changes not staged for commit:
+  295    (use "git add <file>..." to update what will be committed)
+  296    (use "git restore <file>..." to discard changes in working directory)
+  297          modified:   readme.md
+  298  no changes added to commit (use "git add" and/or "git commit -a")
+  299  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  300  $ git diff
+  301  diff --git a/readme.md b/readme.md
+  302  index 525a4bd..a92fc1a 100644
+  303  --- a/readme.md
+  304  +++ b/readme.md
+  305  @@ -1 +1 @@
+  306  -# git desde cero
+  307  \ No newline at end of file
+  308  +# git desde cero edteam
+  309  \ No newline at end of file
+  310  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  311  $ git add readme.md
+  312  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  313  $ git commit
+  314  Aborting commit due to empty commit message.
+  315  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  316  $ git status
+  317  On branch master
+  318  Changes to be committed:
+  319    (use "git restore --staged <file>..." to unstage)
+  320          modified:   readme.md
+  321  Untracked files:
+  322    (use "git add <file>..." to include in what will be committed)
+  323          test/
+  324  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  325  $ git status
+  326  On branch master
+  327  Changes to be committed:
+  328    (use "git restore --staged <file>..." to unstage)
+  329          modified:   readme.md
+  330  Untracked files:
+  331    (use "git add <file>..." to include in what will be committed)
+  332          test/
+  333  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  334  $ git status
+  335  On branch master
+  336  Changes to be committed:
+  337    (use "git restore --staged <file>..." to unstage)
+  338          modified:   readme.md
+  339  Untracked files:
+  340    (use "git add <file>..." to include in what will be committed)
+  341          test/
+  342  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  343  $ git add gitignore
+  344  fatal: pathspec 'gitignore' did not match any files
+  345  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  346  $ git add .gitignore
+  347  fatal: pathspec '.gitignore' did not match any files
+  348  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  349  $ git add .gitignore
+  350  fatal: pathspec '.gitignore' did not match any files
+  351  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  352  $ git add .gitignore
+  353  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  354  $ git status
+  355  On branch master
+  356  Changes to be committed:
+  357    (use "git restore --staged <file>..." to unstage)
+  358          new file:   .gitignore
+  359          modified:   readme.md
+  360  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  361  $ git commit
+  362  [master 77b6dbc] crea el archibo .gitignore
+  363   2 files changed, 2 insertions(+), 1 deletion(-)
+  364   create mode 100644 .gitignore
+  365  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  366  $ git status
+  367  On branch master
+  368  nothing to commit, working tree clean
+  369  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  370  $ git log
+  371  commit 77b6dbc19e12a45f64d6363e17ca8a325e3b7d2d (HEAD -> master)
+  372  Author: William Lema <williamlema1976@yahoo.com>
+  373  Date:   Sat May 9 00:14:03 2020 -0300
+  374      crea el archibo .gitignore
+  375  commit 0af081e2987d76502e4751fc4ec3e89038c7a491
+  376  Author: William Lema <williamlema1976@yahoo.com>
+  377  Date:   Sat May 9 00:03:11 2020 -0300
+  378      mi primer commit
+  379  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  380  $ git log --oneline
+  381  77b6dbc (HEAD -> master) crea el archibo .gitignore
+  382  0af081e mi primer commit
+  383  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  384  $ git checkout 0af081e
+  385  Note: switching to '0af081e'.
+  386  You are in 'detached HEAD' state. You can look around, make experimental
+  387  changes and commit them, and you can discard any commits you make in this
+  388  state without impacting any branches by switching back to a branch.
+  389  If you want to create a new branch to retain commits you create, you may
+  390  do so (now or later) by using -c with the switch command. Example:
+  391    git switch -c <new-branch-name>
+  392  Or undo this operation with:
+  393    git switch -
+  394  Turn off this advice by setting config variable advice.detachedHead to false
+  395  HEAD is now at 0af081e mi primer commit
+  396  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git ((0af081e...))
+  397  $ git log
+  398  commit 0af081e2987d76502e4751fc4ec3e89038c7a491 (HEAD)
+  399  Author: William Lema <williamlema1976@yahoo.com>
+  400  Date:   Sat May 9 00:03:11 2020 -0300
+  401      mi primer commit
+  402  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git ((0af081e...))
+  403  $ git log --all
+  404  commit 77b6dbc19e12a45f64d6363e17ca8a325e3b7d2d (master)
+  405  Author: William Lema <williamlema1976@yahoo.com>
+  406  Date:   Sat May 9 00:14:03 2020 -0300
+  407      crea el archibo .gitignore
+  408  commit 0af081e2987d76502e4751fc4ec3e89038c7a491 (HEAD)
+  409  Author: William Lema <williamlema1976@yahoo.com>
+  410  Date:   Sat May 9 00:03:11 2020 -0300
+  411      mi primer commit
+  412  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git ((0af081e...))
+  413  $ git log --all --oneline
+  414  77b6dbc (master) crea el archibo .gitignore
+  415  0af081e (HEAD) mi primer commit
+  416  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git ((0af081e...))
+  417  $ git checkout master
+  418  Previous HEAD position was 0af081e mi primer commit
+  419  Switched to branch 'master'
+  420  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  421  $ git checkout master
+  422  Already on 'master'
+  423  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  424  $ git status
+  425  On branch master
+  426  nothing to commit, working tree clean
+  427  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  428  $ git status
+  429  On branch master
+  430  Untracked files:
+  431    (use "git add <file>..." to include in what will be committed)
+  432          index.html
+  433  nothing added to commit but untracked files present (use "git add" to track)
+  434  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  435  $ git add indes.html
+  436  fatal: pathspec 'indes.html' did not match any files
+  437  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  438  $ git add index.html
+  439  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  440  $ git status
+  441  On branch master
+  442  Changes to be committed:
+  443    (use "git restore --staged <file>..." to unstage)
+  444          new file:   index.html
+  445  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  446  $ git reset
+  447  H
+  448  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  449  $ git reset HEAD index.html
+  450  willi@DESKTOP-UMBU6LB MINGW64 ~/Desktop/pruebas git (master)
+  451  $ git status
+  452  On branch master
+  453  Untracked files:
+  454    (use "git add <file>..." to include in what will be committed)
+  455          index.html
+  456  git remote add origin https://github.com/ironsol1976/git-desde-cero.git
+  457  git push -u maestro de origen
+  458  git push -u maestro de origen
+  459  git push -u maestro de origen
+  460  git remote add origin https://github.com/ironsol1976/git-desde-cero.git
+  461   git push -u maestro de origen
+  462  git status
+  463   git push -u maestro de origen
+  464  git remote -v
+  465  git branch -a
+  466  git branch -a
+  467  git branch -a
+  468  git log --all --oneline --decorate
+  469  git status
+  470  git add readme.md
+  471  git commit
+  472  git status
+  473  git log --all --decorate --oneline
+  474  git push origin master
+  475  git log --all --decorate --oneline
+  476  UNAME -A
+  477  uname -a
+  478  git init
+  479  GIT INIT
+  480  git init
+  481  https://github.com/ironsol1976/respuesta-a-la-pregunta-3
+  482  git clone https://github.com/ironsol1976/respuesta-a-la-pregunta-3
+  483  ls
+  484  git add README
+  485  git status
+  486  git add historial.txt
+  487  git status
+  488  git add respuesta-a-la-pregunta-3/
+  489  git add CONTRIBUTING.md
+  490  git status
+  491  pwd
+  492  ll
+  493  mkdir prueba
+  494  touch main.doc
+  495  git init
+  496  git add
+  497  git add.
+  498  git add .
+  499  git commit
+  500  git init
+  501  git add .
+  502  git status
+  503  git init
+  504  git add .
+  505  git status
+  506  Git commit “commit del proyecto 2”
+  507  git commit "commit del proyecto"
+  508  git commit --m "commit del proyecto"
+  509  git status
+  510  git remote add origin https://github.com/ironsol1976/repositorio3.git
+  511  git push origin master
+  512  git pull origin master
+  513  pwd
+  514  history > historialrepositorio3.txt
