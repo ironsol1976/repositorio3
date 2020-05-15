@@ -1,0 +1,500 @@
+   15  pwd
+   16  cd
+   17  mv pruevagit prueva
+   18  cd prueva
+   19  pwd
+   20  pwd
+   21  pwd
+   22  ls
+   23  clear
+   24  #!/bin/bash
+   25  clear
+   26  whoami
+   27  #!/bin/bash
+   28  clear
+   29  whoami
+   30  #!/bin/bash
+   31  echo Bienvenido
+   32  whoami
+   33  date +'%d/%m/%Y %H:%M'
+   34  #!/bin/bash
+   35  echo Bienvenido
+   36  whoami
+   37  date +'%d/%m/%y %h:%m'
+   38  a=10
+   39  b=2
+   40  echo multiplicacion:
+   41  expr $x \* $y
+   42  #  Script BASH de Ejemplo de MENU
+   43  echo "----------MENU DE OPCIONES----------"
+   44  echo ""
+   45  PS3='Ingrese su opcion a ejecutar : '
+   46  options=("Opcion Nro. 1" "Opcion Nro. 2" "Opcion Nro. 3" "Salir")
+   47  select opt in "${options[@]}"; do     case $opt in         "Opcion Nro. 1")             echo "A elegido la opcion 1"; 		if [[ $a -gt $b ]]; 		then  		echo $a es mayor que $b;  		else  		echo $b es mayor que $a;  		fi;  	            ;;         "Opcion Nro. 2")             echo "A elegido la opcion 2";             ;;         "Opcion Nro. 3")             echo "A elegido la opcion 3";             ;;         "Salir")             break;             ;;         *) echo invalid option;;     esac; done
+   48  #!/bin/bash
+   49  echo "introduce un numero"
+   50  read a
+   51  echo "introduce el segundo numero"
+   52  read b
+   53  if test $a -gt 200; then echo "el numero es mayor que 200"; else echo "el numero es mas chico"; fi
+   54  grep -r "iron"  archivo.txt
+   55  grep -r "123456"  archivo.txt
+   56  pwd
+   57  ls
+   58  ls chromium.deb
+   59  sudo dpkg -i chromium.deb
+   60  ar x chromium.deb
+   61  ar vx chromium.deb
+   62  Get-AppxPackage -allusers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+   63  #!/bin/bash
+   64   
+   65   #Menu principal
+   66  while [ opcion != "" ]; do clear; echo;       echo "1)" "COMANDOS 1"; /n;     echo "2)" "COMANDOS 2"; /n;     echo "3)" "SALIR"; /n;   read -p "Introduce una opcion: " opcion;     case $opcion in   nuevas opciones. Y una vez hecho la acción
+   67  #!/bin/bash
+   68  clear
+   69  echo -n "introdusca el numero uno entero: "
+   70  read n1
+   71  echo -n "introdusca el numero dos entero: "
+   72  read n2
+   73  s=`expr $n1 + $n2`
+   74  echo "$n1 +$n2 = $s"
+   75  r=`expr $n1 - $n2 = $r`
+   76  echo "$n1 - $n2 = $r"
+   77  m=`expr $n1 \* $n2`
+   78  echo "$n1 * $n2 = $m"
+   79  d=`expr $1 \/ $n2`
+   80  echo "$n1 / $n2 = $d"
+   81  rr=`epr $n1 % $n2`
+   82  echo "$n1 % $n2 = $rr"
+   83  #!/bin/bash
+   84   
+   85   #Menu principal
+   86  while [ opcion != "" ]; do clear; echo;       echo "1)" "COMANDOS 1"; /n;     echo "2)" "COMANDOS 2"; /n;     echo "3)" "SALIR"; /n;   read -p "Introduce una opcion: " opcion;     case $opcion in   nuevas opciones. Y una vez hecho la acción
+   87  #!/bin/bash
+   88   
+   89   #Menu principal
+   90  while [ opcion != "" ]; do clear; echo;       echo "1)" "COMANDOS 1"; /n;     echo "2)" "COMANDOS 2"; /n;     echo "3)" "SALIR"; /n;   read -p "Introduce una opcion: " opcion;     case $opcion in   nuevas opciones. Y una vez hecho la acción
+   91  /c/Users/willi/Desktop/menuopcional.sh
+   92  /c/Users/willi/Desktop/menuopcional.sh
+   93  /c/Users/willi/Desktop/menuopcional.sh
+   94  /c/Users/willi/Desktop/menuopcional.sh
+   95  [Startup]
+   96  AppName=EasyCleaner
+   97  ProductGUID=89645c14-8fce-42c3-81dc-480fb004186e
+   98  CompanyName=ToniArts
+   99  ErrorReportURL=http://saturn.installshield.com/ispro/700/reporterrors.asp?ErrorCode=%d : 0x%x&ErrorInfo=%s
+  100  MediaFormat=0
+  101  LogMode=1
+  102  Skin=setup.skin
+  103  Resource=_Setup.dll
+  104  SmallProgress=N
+  105  SplashTime=5
+  106  CheckMD5=Y
+  107  [Languages]
+  108  Default=0x0009
+  109  count=1
+  110  key0=0x0009
+  111  #!/bin/bash
+  112  echo 
+  113  "[Startup]
+  114  AppName=EasyCleaner
+  115  ProductGUID=89645c14-8fce-42c3-81dc-480fb004186e
+  116  CompanyName=ToniArts
+  117  ErrorReportURL=http://saturn.installshield.com/ispro/700/reporterrors.asp?ErrorCode=%d : 0x%x&ErrorInfo=%s
+  118  MediaFormat=0
+  119  LogMode=1
+  120  Skin=setup.skin
+  121  Resource=_Setup.dll
+  122  SmallProgress=N
+  123  SplashTime=5
+  124  CheckMD5=Y
+  125  [Languages]
+  126  Default=0x0009
+  127  count=1
+  128  key0=0x0009"
+  129  pause
+  130  exit 0
+  131  #!/bin/bash
+  132  echo 
+  133  "[Startup]
+  134  AppName=EasyCleaner
+  135  ProductGUID=89645c14-8fce-42c3-81dc-480fb004186e
+  136  CompanyName=ToniArts
+  137  ErrorReportURL=http://saturn.installshield.com/ispro/700/reporterrors.asp?ErrorCode=%d : 0x%x&ErrorInfo=%s
+  138  MediaFormat=0
+  139  LogMode=1
+  140  Skin=setup.skin
+  141  Resource=_Setup.dll
+  142  SmallProgress=N
+  143  SplashTime=5
+  144  CheckMD5=Y
+  145  [Languages]
+  146  Default=0x0009
+  147  count=1
+  148  key0=0x0009"
+  149  pause
+  150  exit 0
+  151  #!/bin/bash
+  152  echo 
+  153  "[Startup]
+  154  AppName=EasyCleaner
+  155  ProductGUID=89645c14-8fce-42c3-81dc-480fb004186e
+  156  CompanyName=ToniArts
+  157  ErrorReportURL=http://saturn.installshield.com/ispro/700/reporterrors.asp?ErrorCode=%d : 0x%x&ErrorInfo=%s
+  158  MediaFormat=0
+  159  LogMode=1
+  160  Skin=setup.skin
+  161  Resource=_Setup.dll
+  162  SmallProgress=N
+  163  SplashTime=5
+  164  CheckMD5=Y
+  165  [Languages]
+  166  Default=0x0009
+  167  count=1
+  168  key0=0x0009"
+  169  lee  -p  "Presiona la tecla [Enter] para iniciar la copia de seguridad ..."
+  170  exit 0
+  171  #!/bin/bash
+  172  function pause ( ) {     read  -p  "$ *" ; }
+  173  echo 
+  174  "[Startup]
+  175  AppName=EasyCleaner
+  176  ProductGUID=89645c14-8fce-42c3-81dc-480fb004186e
+  177  CompanyName=ToniArts
+  178  ErrorReportURL=http://saturn.installshield.com/ispro/700/reporterrors.asp?ErrorCode=%d : 0x%x&ErrorInfo=%s
+  179  MediaFormat=0
+  180  LogMode=1
+  181  Skin=setup.skin
+  182  Resource=_Setup.dll
+  183  SmallProgress=N
+  184  SplashTime=5
+  185  CheckMD5=Y
+  186  [Languages]
+  187  Default=0x0009
+  188  count=1
+  189  key0=0x0009"
+  190  pausa 'Presione la tecla [Entrar] para continuar ...' 
+  191  exit 0
+  192  #!/bin/bash
+  193  function pause ( ) {     read  -p  "$ *" ; }
+  194  echo 
+  195  "[Startup]
+  196  AppName=EasyCleaner
+  197  ProductGUID=89645c14-8fce-42c3-81dc-480fb004186e
+  198  CompanyName=ToniArts
+  199  ErrorReportURL=http://saturn.installshield.com/ispro/700/reporterrors.asp?ErrorCode=%d : 0x%x&ErrorInfo=%s
+  200  MediaFormat=0
+  201  LogMode=1
+  202  Skin=setup.skin
+  203  Resource=_Setup.dll
+  204  SmallProgress=N
+  205  SplashTime=5
+  206  CheckMD5=Y
+  207  [Languages]
+  208  Default=0x0009
+  209  count=1
+  210  key0=0x0009"
+  211  pausa 'Presione la tecla [Entrar] para continuar ...' 
+  212  pwd
+  213  pwd
+  214  vi prueva.txt
+  215  vi -R pruva.txt
+  216  vi -R prueva.txt
+  217  #!/bin/bash
+  218  clear
+  219  echo "-------------menu-----------"
+  220  echo ""
+  221  ps3='ongresa opcion :'
+  222  options=("nro 1" "nro 2" "nro 3" "salir")
+  223  select opt in "${opcions[@]}"; do 	case $spt in 	"nro 1") 	echo "opcion 1 elegida"; 	;; 	"nro 2") 	echo "opcion 2 elegida"; 	;; 	"nro 3") 	echo "opcion 3 elegida"; 	;; 	"salir") 	break; 	;; 	*) echo opcion invalida;; 	esac; done
+  224  #!/bin/bash
+  225  clear
+  226  echo "-------------menu-----------"
+  227  echo ""
+  228  PS3='ongresa opcion :'
+  229  options=("nro 1" "nro 2" "nro 3" "salir")
+  230  select opt in "${opcions[@]}"; do 	case $opt in 	"nro 1") 	echo "opcion 1 elegida"; 	;; 	"nro 2") 	echo "opcion 2 elegida"; 	;; 	"nro 3") 	echo "opcion 3 elegida"; 	;; 	"salir") 	break; 	;; 	*) echo opcion invalida;; 	esac; done
+  231  #!/bin/bash
+  232  clear
+  233  echo "-------------menu-----------"
+  234  echo ""
+  235  PS3='ongresa opcion :'
+  236  options=("nro 1" "nro 2" "nro 3" "salir")
+  237  select opt in "${opcions[@]}"; do 	case $opt in 	"nro 1") 	echo "opcion 1 elegida"; 	;; 	"nro 2") 	echo "opcion 2 elegida"; 	;; 	"nro 3") 	echo "opcion 3 elegida"; 	;; 	"salir") 	break; 	;; 	*) echo opcion invalida;; esac; done
+  238  #!/bin/bash
+  239  clear
+  240  echo "-------------menu-----------"
+  241  echo ""
+  242  PS3='ongresa opcion :'
+  243  options=("nro 1" "nro 2" "nro 3" "salir")
+  244  select opt in "${opcions[@]}"; do 	case $opt in 	"nro 1") 	echo "opcion 1 elegida"; 	;; 	"nro 2") 	echo "opcion 2 elegida"; 	;; 	"nro 3") 	echo "opcion 3 elegida"; 	;; 	"salir") 	break; 	;; 	*) echo opcion invalida;; esac; done
+  245  /c/Users/willi/Desktop/menu.sh
+  246  vim
+  247  #!/bin/bash
+  248  clear
+  249  echo "-------------menu-----------"
+  250  echo ""
+  251  PS3='ongresa opcion :'
+  252  options=("nro .1" "nro .2" "nro .3" "salir")
+  253  select opt in "${options[@]}"; do 	case $opt in 	"nro 1") 	echo "opcion 1 elegida"; 	;; 	"nro 2") 	echo "opcion 2 elegida"; 	;; 	"nro 3") 	echo "opcion 3 elegida"; 	;; 	"salir") 	break; 	;; 	*) echo opcion invalida;; esac; done
+  254  #!/bin/bash
+  255  clear
+  256  echo "-------------menu-----------"
+  257  echo ""
+  258  PS3='ongresa opcion :'
+  259  options=("nro .1" "nro .2" "nro .3" "salir")
+  260  select opt in "${options[@]}"; do 	case $opt in 	"nro .1") 	echo "opcion 1 elegida"; 	;; 	"nro .2") 	echo "opcion 2 elegida"; 	;; 	"nro .3") 	echo "opcion 3 elegida"; 	;; 	"salir") 	break; 	;; 	*) echo opcion invalida;; esac; done
+  261  Get-AppxPackage -allusers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+  262  #!/bin/bash
+  263  echo "opcion 1"
+  264  echo "opcion 2"
+  265  echo "opcion 3"
+  266  echo "opcion 4"
+  267  echo "elija una opcion: "
+  268  read opcion
+  269  case $opcion in echo "opcion 1"
+  270  /c/Users/willi/Desktop/men.sh
+  271  /c/Users/willi/Desktop/men.sh
+  272  #!/bin/bash
+  273  echo "1)opcion 1"
+  274  echo "2)opcion 2"
+  275  echo "3)opcion 3"
+  276  echo "4)opcion 4"
+  277  echo "elija una opcion: "
+  278  read opcion
+  279  case $opcion in 1)echo "opcion 1"; 2)echo "opcion 2"
+  280  #!/bin/bash
+  281  echo "cual es tu name"
+  282  read nombre
+  283  echo $"hola $nombre"
+  284  /c/Users/willi/Desktop/men.sh
+  285  /c/Users/willi/Desktop/men.sh
+  286  /c/Users/willi/Desktop/men.sh
+  287  /c/Users/willi/Desktop/men.sh
+  288  /c/Users/willi/Desktop/men.sh
+  289  /c/Users/willi/Desktop/men.sh
+  290  /c/Users/willi/Desktop/leer.sh
+  291  /c/Users/willi/Desktop/leer.sh
+  292  chmod +x leer.sh
+  293  /c/Users/willi/Desktop/leer.sh
+  294  /c/Users/willi/Desktop/leer2.sh
+  295  /c/Users/willi/Desktop/leer2.sh
+  296  '/c/Users/willi/Desktop/menu con la funcion SELECT.sh'
+  297  3
+  298  56
+  299  '/c/Users/willi/Desktop/menu con la funcion SELECT.sh'
+  300  '/c/Users/willi/Desktop/menu con la funcion SELECT.sh'
+  301  '/c/Users/willi/Desktop/cambiar fecha.bat'
+  302  '/c/Users/willi/Desktop/fecha a txt.bat'
+  303  ls
+  304  cp prueva.txt
+  305  cat prueva.txt
+  306  mv prueva.txt prueba.txt
+  307  ls
+  308  cat hora
+  309  date "063008102016"
+  310  date
+  311  date Thu Jun 30 08:10:17 art 2016
+  312  date "063008102016"
+  313  s
+  314  ls
+  315  stat prueba.txt
+  316  l
+  317  ls
+  318  stat *.*
+  319  cp prueba.txt prueva.txt prueba.bak
+  320  cp prueba.txt prueva.txt
+  321  cp prueba.txt prueva.bak
+  322  cp prueba.txt txtprueba.txt
+  323  date
+  324  cal
+  325  pwd
+  326  ls
+  327  task.sh
+  328  history
+  329  history
+  330  history > historial.txt
+  331  echo $shell:
+  332  > task.sh
+  333  vi task.sh
+  334  level3/
+  335  cd
+  336  cd -
+  337  pwd
+  338  cd.
+  339  cd .
+  340  pwd
+  341  > hola.sh
+  342  vim hola.sh
+  343  $ chmod + x hola.sh
+  344  chmod + x hola.sh
+  345  sh hola.sh
+  346  man ls
+  347  > backup.sh
+  348  vi backup.sh
+  349  sh backup.sh
+  350  man tar
+  351  tar ?
+  352  tar
+  353  > welcome.sh
+  354  vi welcome.sh
+  355  sh welcome.sh
+  356  > script.sh
+  357  vi script.sh
+  358  sh script.sh
+  359  sudo crontab -e
+  360  ipconfig
+  361  ipconfig
+  362  pwd
+  363  ls
+  364  clear
+  365  touch > hola.sh
+  366  > hola.sh
+  367  vi hola.sh
+  368  chmod 777 hola.sh
+  369  sh hola.sh
+  370  vi hola.sh
+  371  chmod 777 hola.sh
+  372  sh hola.sh
+  373  ipconfig
+  374  ifconfig
+  375  ls
+  376  mkdir cosas
+  377  mv prueva.bak ./cosas
+  378  ls
+  379  mv prueva.txt ./cosas
+  380  ls
+  381  mv prueba.txt ./cosas
+  382  cat task.sh
+  383  cat txtprueba.txt
+  384  mv txtprueba.txt ./cosas
+  385  ls
+  386  cat ntuser.ini
+  387  cat ntuser.pol
+  388  sh task.sh
+  389  ls
+  390  nno hora
+  391  nano hora
+  392  touch hola.txt hola2.txt hola3.txt
+  393  mkdir prueba
+  394  chmod 700 prueba
+  395  cd prueba
+  396  pwd
+  397  cd
+  398  pwd
+  399  ls -ld prueba
+  400  #!/bin/bash
+  401  # Este script recibe un argumento y determina si es archivo o directorio.
+  402  Error(){ echo "Error. Sintaxis de uso: $0/ archivo | directorio"; }
+  403  if test $# -lt 1 # Si el número de parámetros posicionales o argumentos que se le dan al script es menor que 1, donde "-lt" significa "lower than" y es equivalente a lo que en otros lenguajes se utiliza como "<".; then Error; elif test -d $1 # Si el parámetro posicional "$1" existe y es un directorio.; then echo "$1 es un directorio."; elif test -f $1 # Si el parámetro posicional "$1" existe y es un archivo regular.; then echo "$1 es un archivo."; else echo "$1 no existe."; fi
+  404  '/c/Users/willi/Desktop/3ERO IG/SO 3/trabajo/script 1.sh'
+  405  sh /c/Users/willi/Desktop/3ERO IG/SO 3/trabajo/script 1.sh
+  406  sh c:/Users/willi/Desktop/3ERO IG/SO 3/trabajo/script 1.sh
+  407  #!/bin/bash
+  408  Error(){ echo "Error. Sintaxis de uso: $0/ archivo | directorio"; }
+  409  if test $# -lt 1 ; then Error elif test -d $1 ; then echo "$1 es un directorio y su tamaño es el siguiente:"
+  410  #!/bin/bash
+  411  Error(){ echo "Error. No se proporcionaron argumentos. Las posibles opciones para la ejecución de este script son:"; echo "$0 nombre_archivo"; echo "$0 nombre_directorio"; }
+  412  if test $# -lt 1 # Si el número de parámetros posicionales o argumentos que se le dan al script es menor que 1, donde "-lt" significa "lower than" y es equivalente a lo que en otros lenguajes se utiliza como "<".; then Error; elif test -d $1 # Si el parámetro posicional "$1" existe y es un directorio.; then echo "$1 es un directorio."; elif test -f $1 # Si el parámetro posicional "$1" existe y es un archivo regular.; then echo "$1 es un archivo."; else echo "$1 no existe."; fi
+  413  date
+  414  call
+  415  cal
+  416  pwd
+  417  vi task.sh
+  418  echo $shell
+  419  $shell
+  420  echo $shell :
+  421  $bash date.sh
+  422  VI QUIEN.SH
+  423  chmod 777 quien.sh
+  424  sh quien.sh
+  425  whoami
+  426  sh quien.sh
+  427   getconf ARG_MAX
+  428  chmod +x ./myscript
+  429  vi directorio.sh
+  430  chmod 777 directorio.sh
+  431  sh directorio.sh
+  432  vi home.sh
+  433  chmod 777 home.sh
+  434  sh home.sh
+  435  #!/bin/bash
+  436  clear
+  437  while :; do echo " Escoja una opcion "; echo "1. Registrarse"; echo "2. loguearse"; echo "3. Salir"; echo -n "Seleccione una opcion [1 al 3 Solamente]"; read opcion; case $opcion in 1)echo "Ponga nombre"; read var1; echo; echo $var1 >> tengo.txt; echo; echo "Ponga pass"; read var2; echo; echo $var2 >> tengo.txt; read -p "Press enter to continue";; 2)echo -n "Cual es tu Usuario: "; read nom; echo -n "Escribe Pass: "; read cod;  if [ "$nom" = $(grep "$nom" tengo.txt | cut -d: -f1) ]; then echo "Estas Registrado"; else echo "No esta registrado"; fi; read -p "Press enter to continue";; 3) echo "Chau"; exit 1;; *) echo "$opc es una opcion incorrecta"; echo "Presiona una tecla para continuar..."; read foo;; esac; done
+  438  $USER!
+  439  ECHO "JI, $user!"
+  440  COLOUR="BLACK"
+  441  VI VALOR.SH
+  442  chmod 777 valor.sh
+  443  sh valor.sh
+  444  vi valor.sh
+  445  chmod 777 valor.sh
+  446  sh valor.sh
+  447  ca history
+  448  cat history
+  449  cat bash_history
+  450  vi edad.sh
+  451  chmod 777 edad.sh
+  452  sh edad
+  453  sh edad.sh
+  454  vi edad.sh
+  455  sh edad.sh
+  456  vi edad.sh
+  457  sh edad.sh
+  458  vi edad.sh
+  459  exit
+  460  PWD
+  461  mkdir prueba
+  462  touch prueba.docx
+  463  ls
+  464  push
+  465  Push
+  466  pull
+  467  $ git init
+  468  $gitinit
+  469  git add
+  470  git add trabajos
+  471* 
+  472  git add trabajos
+  473  git add trabajos
+  474  git commit -m "First commit"
+  475  github
+  476  pwd
+  477  ls
+  478  cd desktop
+  479  ls
+  480  cd 3ero ig
+  481  cd '3ero ig'
+  482  cd 'so'
+  483  ls
+  484  cd 'so 3'
+  485  ls
+  486  mkdir repositorio
+  487  cd repositorio
+  488  pwd
+  489  ls
+  490  git init
+  491  git add .
+  492  git status
+  493  git commit -m "Commit del proyecto bash sh"
+  494  git status
+  495  git remote add origin https://github.com/ironsol1976/respuesta-a-la-pregunta-3.git
+  496  git push origin master
+  497  clear
+  498  git remote add origin https://github.com/ironsol1976/respuesta-a-la-pregunta-3.git
+  499  git push origin master
+  500  git pull origin master
+  501  historial
+  502  ?
+  503  cat history >> historial.txt
+  504  cat history
+  505  bach_history
+  506  cat bach_history
+  507  clear
+  508  cat history historial.txt
+  509  cat history
+  510  cat history >historial.txt
+  511  history
+  512  cat history >> history.txt
+  513  cat history >historial.txt
+  514  history>historial.txt
